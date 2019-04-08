@@ -1,0 +1,51 @@
+.directions{
+	margin: 10px auto;
+}
+.directions .item 
+{
+	margin-top: 15px;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background-color: rgba(360,360,360,0.9);
+	padding: 10px;
+}
+.directions .item p{
+	padding-left: 20px;
+	margin-top: 20px;
+}
+.directions .item img 
+{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+}
+header div img{
+	max-width: 100%;
+}
+
+@media screen and (max-width: 768px)
+{
+	.navbar-nav
+	{
+		float: none;
+		text-align: center;
+	}
+	h1{
+		font-size: 3.4em !important;
+	}
+	.directions .item 
+	{
+		background-color: rgb(360,360,360);
+		margin: 0;
+		padding: 12px;
+		margin-top: 10px;
+	}
+	.directions .item img
+	{
+		margin-top: 20px;
+	}
+	.directions .item h2{
+		text-align: center;
+	}
+}

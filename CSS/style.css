@@ -1,0 +1,125 @@
+.h1{
+	color: rgb(360,360,360);
+	text-align: center;
+}
+.directions
+{
+	margin: 100px auto;
+}
+
+.directions .item 
+{
+	margin-top: 15px;
+	width: 100%;
+	height: 320px;
+	overflow: hidden;
+	background-color: rgba(360,360,360,0.9);
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.directions .item h1{
+	text-align: center;
+}
+.directions .item p{
+	padding-top: 15px;
+}
+.directions .item img 
+{
+	width: 100%;
+	height: auto;
+}
+
+.directions .item-title
+{
+	display: inline-block;
+	width: 100%;
+	margin-top: 20px;
+	text-align:center;
+	color: #333;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 30px;
+}
+.directions .item-title:hover 
+{
+	text-decoration: none;
+	text-shadow: 0 0 1px #555;
+}
+.directions .item-title::after 
+{
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: #333;
+	margin-top: 20px;
+	content:"";
+}
+footer 
+{
+	padding-top: 50px;
+	background: #333;
+}
+footer .contacts
+{
+	padding-bottom: 50px;
+	border-bottom: 1px solid rgba(241, 241, 241, 0.5);
+
+}
+
+footer .contacts .tech 
+{
+	color: #eee;
+	font-size: 24px;
+	margin-bottom: 20px;
+	line-height: 24px;
+}
+
+footer .contacts .desc
+{
+	margin-bottom: 15px;
+	color: #bbb;
+	font-size: 16px;
+}
+
+
+footer .contacts .note 
+{
+	color: #FBBF30;
+}
+footer .copyright 
+{
+	padding-top: 25px;
+}
+
+footer .copyright .copy 
+{
+	color: #ccc;
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.4;
+	margin-bottom: 25px;
+}
+@media screen and (max-width: 768px)
+{
+	.navbar-nav
+	{
+		float: none;
+		text-align: center;
+	}
+
+	.directions .item h1
+	{
+		display: none;
+	}
+	
+	h1{
+		font-size: 3.4em !important;
+	}
+	.directions .item 
+	{
+		background-color: rgb(360,360,360);
+		margin: 0;
+		padding: 12px;
+		margin-top: 10px;
+	}
+}
